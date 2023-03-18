@@ -58,7 +58,7 @@ else:
 
 # 6. Media Elements
 st.title("(6. Media Elements)")
-img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Gojou.jpg")
+img = Image.open("./Tugas3/Gojou.jpg")
 st.image(img, caption="Gojou Satoru")
 
 #7. Layout and Containers

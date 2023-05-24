@@ -2,8 +2,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as component
-import Profil_Pemerintahan
-import Jelajah
+
 
 from htbuilder import HtmlElement, div, ul, li, br, hr, a, p, img, styles, classes, fonts
 from htbuilder.units import percent, px
@@ -12,12 +11,6 @@ from htbuilder.funcs import rgba, rgb
 def main():
     # Sidebar navigation
     page = st.sidebar.selectbox("Navigation", ("Profil Pemerintahan", "Jelajah", "Informasi Covid"))
-
-    # Display corresponding page based on user selection
-    if page == "Profil Pemerintahan":
-        Profil_Pemerintahan.show()
-    elif page == "Jelajah":
-        Jelajah.show()
 
 if __name__ == "__main__":
     main()

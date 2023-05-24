@@ -100,7 +100,7 @@ with header_container:
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\LogoDKI.jpg")
+        img = Image.open("./UAS/LogoDKI.jpg")
         st.image(img)
 
     with col2:

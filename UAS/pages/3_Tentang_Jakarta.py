@@ -97,7 +97,7 @@ with header_container:
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\LogoDKI.jpg")
+        img = Image.open("./UAS/LogoDKI.jpg")
         st.image(img)
 
     with col2:
@@ -116,7 +116,7 @@ with main_container:
     st.write(' ')
 
     st.markdown("<h3 style='text-align: center; color:black;'>Kota DKI Jakarta</h3>", unsafe_allow_html=True)
-    img = Image.open("D:\\File Penting\\Dansunn\Kuliah\\Semester 6\\WebDev Phyton\\NightDKI.jpg")
+    img = Image.open("./UAS/LogoDKI.jpg")
     st.image(img)
     st.markdown("<p style='text-align: justify; color:black;'>Jakarta adalah nama Ibu Kota Republik Indonesia. Provinsi DKI Jakarta terbagi menjadi lima wilayah Kota Administrasi dan satu Kabupaten Administratif, yakni: Kota Administrasi Jakarta Pusat dengan luas 47,90 km2, Jakarta Utara dengan luas 142,20 km2, Jakarta Barat dengan luas 126,15 km2, Jakarta Selatan dengan luas 145,73 km2, Jakarta Timur dengan luas 187,73 km2, serta Kabupaten Administratif Kepulauan Seribu dengan luas 11,81 km2. Di sebelah utara membentang pantai sepanjang 35 km yang menjadi muara 13 sungai dan dua kanal. Di sebelah selatan dan timur berbatasan dengan Kota Depok, Kabupaten Bogor, Kota Bekasi dan Kabupaten Bekasi, sebelah barat dengan Kota Tangerang dan Kabupaten Tangerang, serta di sebelah utara dengan Laut Jawa.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Secara geologis, seluruh dataran terdiri dari endapan pleistocene yang terdapat pada ±50 m di bawah permukaan tanah. Bagian selatan terdiri atas lapisan alluvial, sedangkan dataran rendah pantai merentang ke bagian pedalaman sekitar 10 km. Di bawahnya terdapat lapisan endapan yang lebih tua yang tidak tampak pada permukaan tanah, karena tertimbun seluruhnya oleh endapan alluvium. Di wilayah bagian utara terdapat endapan tersebut pada kedalaman 10-25 m, makin ke selatan permukaan keras semakin dangkal hingga 8-15 m. Pada bagian tertentu juga terdapat lapisan permukaan tanah yang keras dengan kedalaman 40 m.</p>", unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with main_container:
     st.write(' ')
 
     st.markdown("<h3 style='text-align: center; color:black;'>Sejarah</h3>", unsafe_allow_html=True)
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\OldDKI.jpg")
+    img = Image.open("./UAS/LogoDKI.jpg")
     st.image(img)
     st.markdown("<p style='text-align: justify; color:black;'>Sebagai kota pelabuhan, Jakarta pada mulanya bernama Sunda Kelapa. Kemudian, pada 22 Juni 1527, Pangeran Fatahillah datang dan mendirikan kota Jayakarta untuk mengganti Sunda Kelapa. Tanggal inilah yang kemudian ditetapkan sebagai saat berdiri kota Jakarta. Kota Jayakarta berkembang sebagai kota pelabuhan yang sibuk, di mana para pedagang dari Cina, India, Arab, Eropa, serta negara-negara lain saling bertukar komoditas.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Pada 1619, VOC Belanda yang dipimpin Jan PieterszoonCoen menghancurkan Jayakarta, lalu membangun kota baru di bagian barat sungai Ciliwung yang dinamakan Batavia, diambil dari Batavieren, nenek moyang bangsa Belanda. Batavia direncanakan dan dibangun nyaris mirip dengan kota-kota di Belanda, yaitu dalam bentuk blok yang masing-masing dipisahkan oleh kanal, dilindungi oleh dinding sebagai benteng, serta parit. Selesai dibangun pada 1650, Batavia adalah tempat tinggal bangsa Eropa. Sementara bangsa Cina, Jawa, dan penduduk pribumi lainnya disingkirkan ke tempat lain. Batavia digunakan untuk menyebut nama kota ini selama tiga abad lebih. Setidaknya bermula pada 1619, atau sumber lain mengatakan tahun 1621, hingga 1942. Sejalan dengan kebijakan de-Nederlandisasi oleh Pemerintah Jepang, nama kota sengaja diganti dengan bahasa Indonesia atau Jepang. Walhasil, pada 1942, nama Batavia berubah menjadi Djakarta sebagai akronim Djajakarta.  </p>", unsafe_allow_html=True)

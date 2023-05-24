@@ -119,7 +119,7 @@ with main_container:
 
     with tab1:
             st.header("HUT Ke-496 Kota Jakarta : Jadi Karya Untuk Nusantara")
-            st.image("https://akcdn.detik.net.id/community/media/visual/2023/05/22/tema-hut-ke-496-dki-jakarta-tahun-2023_169.png", width=600)
+            st.image("https://asset.kompas.com/crops/sO9H-foQbRDfdRoXM0cWnNLegbU=/0x0:0x0/1200x800/data/photo/2023/05/21/6469c501ad54f.jpg", width=600)
             st.markdown("<p style='text-align: justify; color:black;'>Diperingati tiap tanggal 22 Juni, tahun ini Jakarta akan segera mencapai usia ke-496. Dengan tema “Jadi Karya untuk Nusantara”, bersama kita sukseskan transisi Jakarta dari Ibu Kota Negara menjadi Kota Bisnis berskala global.</h1>", unsafe_allow_html=True)
 
     with tab2:

@@ -98,7 +98,7 @@ with header_container:
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img = Image.open("D:\WebPhytonUAS\LogoDKI.jpg")
+        img = Image.open("./UAS/LogoDKI.jpg")
         st.image(img)
 
     with col2:
@@ -140,9 +140,9 @@ st.markdown("<h1 style='text-align: center; color:black;'>Visi & Misi Kota Jakar
 col1, col2 =st.columns(2)
 
 with col1:
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Visi.jpg")
+    img = Image.open("./UAS/Visi.jpg")
     st.image(img)
 
 with col2:
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Misi.jpg")
+    img = Image.open("./UAS/Misi.jpg")
     st.image(img)

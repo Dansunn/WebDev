@@ -3,3 +3,4 @@ numpy
 pandas
 streamlit_option_menu==0.3.4
 htbuilder==0.6.1
+gsheetsdb==0.1.13.1

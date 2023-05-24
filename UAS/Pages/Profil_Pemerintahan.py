@@ -97,7 +97,7 @@ with header_container:
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\LogoDKI.jpg")
+        img = Image.open("./UAS/LogoDKI.jpg")
         st.image(img)
 
     with col2:
@@ -117,13 +117,13 @@ with main_container:
     st.markdown("<h3 style='text-align: center; color:black;'>Profil Pemerintahan</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     with col1:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Gubernur_Anies.jpg")
+        img = Image.open("./UAS/Gubernur_Anies.jpg")
         st.image(img)
 
     with col2:
         st.write('')
     with col3:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\ARP.jpg")
+        img = Image.open("./UAS/ARP.jpg")
         st.image(img)
 
     col4, col5, col6 = st.columns(3)

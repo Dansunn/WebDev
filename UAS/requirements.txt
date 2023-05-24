@@ -1,0 +1,1 @@
+streamlit_menu_option==0.3.2

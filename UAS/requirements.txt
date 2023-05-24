@@ -1,1 +1,4 @@
-streamlit_menu_option==0.3.2
+streamlit
+numpy
+pandas
+streamlit_option_menu==0.3.4

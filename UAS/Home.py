@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as component
+import sys
+sys.path.append("./UAS/Pages)
+import Profil_Pemerintahan
 
 
 from htbuilder import HtmlElement, div, ul, li, br, hr, a, p, img, styles, classes, fonts

@@ -99,7 +99,7 @@ with header_container:
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\LogoDKI.jpg")
+        img = Image.open("./UAS/LogoDKI.jpg")
         st.image(img)
 
     with col2:
@@ -118,19 +118,19 @@ with main_container:
     st.write(' ')
     st.markdown("<h1 style='text-align: center; color:black;'>Destinasi Wisata Populer</h1>", unsafe_allow_html=True)
     st.markdown('### 1. Monumen Nasional')
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Monas.jpg")
+    img = Image.open("./UAS/Monas.jpg")
     st.image(img)
     st.markdown("<p style='text-align: justify; color:black;'>Monas atau Monumen Nasional merupakan icon kota Jakarta. Terletak di pusat kota Jakarta, menjadi tempat wisata dan pusat pendidikan yang menarik bagi warga Jakarta dan sekitarnya. Monas didirikan pada tahun 1959 dan diresmikan dua tahun kemudian pada tahun 1961. Monas selalu ramai dikunjungi wisatawan untuk melihat keindahan kota Jakarta dari puncak Monas, menambah wawasan sejarah Indonesia di ruang diorama ataupun menikmati segarnya hutan kota seluas kira-kira 80 hektar di tengah kota Jakarta.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Setiap hari libur, Monas selalu dikunjungi banyak wisatawan. Di sini Anda bisa menikmati banyak jenis wisata dan bahan pendidikan. Anda bisa menaiki monumen yang menjulang tinggi hingga ke puncak Monas. Anda juga dapat berolahraga bersama teman dan keluarga. Anda juga bisa menikmati taman yang indah dengan berbagai pepohonan yang rimbun dan asri. Atau Anda bisa menikmati hiburan air mancur yang menarik.</p>", unsafe_allow_html=True)
     
     st.markdown('### 2. Taman Mini Indonesia Indah')
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\TMII.jpg")
+    img = Image.open("./UAS/TMII.jpg")
     st.image(img)
     st.markdown("<p style='text-align: justify; color:black;'>Taman Mini Indonesia Indah (TMII) merupakan suatu kawasan taman wisata bertema budaya Indonesia di Jakarta Timur. Area seluas kurang lebih 150 hektar[1] atau 1,5 kilometer persegi ini terletak pada koordinat 6 derajat 18'6.8''LS, 106 derajat 53'47.2''BT. Di Indonesia, hampir setiap suku bangsa memiliki bentuk dan corak bangunan yang berbeda, bahkan tidak jarang satu suku bangsa memiliki lebih dari satu jenis bangunan tradisional. Bangunan atau arsitektur tradisional yang mereka buat selalu dilatarbetakangi oleh kondisi lingkungan dan kebudayaan yang dimiliki. Di TMII, gambaran tersebut diwujudkan melalui Anjungan Daerah, yang mewakili suku-suku bangsa yang berada di 33 Provinsi Indonesia. Anjungan provinsi ini dibangun di sekitar danau dengan miniatur Kepulauan Indonesia, secara tematik dibagi atas enam zona; Jawa, Sumatera, Kalimantan, Sulawesi, Bali dan Nusa Tenggara, Maluku dan Papua. Tiap anjungan menampilkan bangunan khas setempat.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Taman ini merupakan rangkuman kebudayaan bangsa Indonesia, yang mencakup berbagai aspek kehidupan sehari-hari masyarakat 33 provinsi Indonesia (pada tahun 1975) yang ditampilkan dalam anjungan daerah berarsitektur tradisional, serta menampilkan aneka busana, tarian dan tradisi daerah.</p>", unsafe_allow_html=True)
    
     st.markdown('### 3. Taman Margasatwa Ragunan')
-    img = Image.open("D:\File Penting\Dansunn\Kuliah\Semester 6\WebDev Phyton\Ragunan.jpg")
+    img = Image.open("./UAS/Ragunan.jpg")
     st.image(img)
     st.markdown("<p style='text-align: justify; color:black;'>Sebuah taman seluas 147 hektar dan berpenghuni lebih dari 2.009 ekor satwa serta ditumbuhi lebih dari 20.000 pohon membuat suasana lingkungannya sejuk dan nyaman. Lahannnya tertata dan terbangun serta sebagian lagi masih dikembangkan menuju suatu kebun binatang yang modern sebagai identitas kota Jakarta.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Berkunjung ke Taman Margasatwa Ragunan berarti memasuki sebuah hutan tropis mini, di dalamnya terdapat keanekaragaman hayati yang memiliki nilai konservasi tinggi dan menyimpan harapan untuk masa depan.</p>", unsafe_allow_html=True)

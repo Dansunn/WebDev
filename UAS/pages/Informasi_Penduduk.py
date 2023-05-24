@@ -134,7 +134,7 @@ with main_container:
 
     st.markdown("<h1 style='text-align: center; color:black;'>Informasi Penduduk DKI Jakarta</h1>", unsafe_allow_html=True)
 
-    first_choice = st.selectbox("First level options", ["Pilih Data","Jumlah Penduduk", "Kelahiran","Kematian"])
+    first_choice = st.selectbox(" ", ["Pilih Data","Jumlah Penduduk", "Kelahiran","Kematian"])
 
     if first_choice == 'Jumlah Penduduk':
         st.dataframe(dfjmlpddk)

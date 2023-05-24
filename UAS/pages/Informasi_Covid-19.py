@@ -182,7 +182,7 @@ with main_container:
 
     st.markdown("<h1 style='text-align: center; color:black;'>Informasi Covid-19 DKI Jakarta</h1>", unsafe_allow_html=True)
 
-    first_choice = st.selectbox("First level options", ["Pilih Data","2020K2", "2020K3","2020K4", "2021K1", "2021K2", "2021K3", "2021K4", "2022K1", "2022K2", "2022K3", "2022K4", "2023K1"])
+    first_choice = st.selectbox("Tahun dan Kuarter", ["Pilih Data","2020K2", "2020K3","2020K4", "2021K1", "2021K2", "2021K3", "2021K4", "2022K1", "2022K2", "2022K3", "2022K4", "2023K1"])
 
     if first_choice == '2020K2':
         st.write(df2020K2)

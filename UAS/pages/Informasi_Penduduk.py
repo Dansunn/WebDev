@@ -144,7 +144,7 @@ with main_container:
 
     if first_choice == 'Jumlah Penduduk':
         st.dataframe(dfjmlpddk)
-        st.bar_chart=(dfjmlpddk)
+        st.line_chart(dfjmlpddk)
        
     elif first_choice == 'Kelahiran':
         st.dataframe(dfkelahiran)

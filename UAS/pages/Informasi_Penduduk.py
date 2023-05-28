@@ -148,8 +148,9 @@ with main_container:
        
     elif first_choice == 'Kelahiran':
         st.dataframe(dfkelahiran)
-        st.bar_chart=[dfkelahiran]
+        st.bar_chart(dfkelahiran)
         
     elif first_choice == 'Kematian':
         st.dataframe(dfkematian)
-        st.bar_chart=(dfkematian)
+        st.bar_chart(dfkematian)
+      

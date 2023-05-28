@@ -114,21 +114,21 @@ sheet_name = "JumlahPenduduk"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 dfjmlpddk=pd.read_csv(url)
 dfjmlpddk.set_index('Tahun', inplace=True)
-st.bar_chart=(dfjmlpddk)
+
 
 sheet_id = "16gvv3Br49pD0HYy6qu3H5RdkKQRT1ObTxN4ALsNrRSI"
 sheet_name = "Kelahiran"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 dfkelahiran=pd.read_csv(url)
 dfkelahiran.set_index('Tahun', inplace=True)
-st.bar_chart=(dfkelahiran)
+
 
 sheet_id = "16gvv3Br49pD0HYy6qu3H5RdkKQRT1ObTxN4ALsNrRSI"
 sheet_name = "Kematian"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 dfkematian=pd.read_csv(url)
 dfkematian.set_index('Tahun', inplace=True)
-st.bar_chart=(dfkematian)
+
 
 # Create a container for the main content
 main_container = st.container()
@@ -144,10 +144,12 @@ with main_container:
 
     if first_choice == 'Jumlah Penduduk':
         st.dataframe(dfjmlpddk)
+        st.bar_chart=(dfjmlpddk)
        
     elif first_choice == 'Kelahiran':
         st.dataframe(dfkelahiran)
+        st.bar_chart=(dfkelahiran)
         
     elif first_choice == 'Kematian':
         st.dataframe(dfkematian)
-        
+        st.bar_chart=(dfkematian)

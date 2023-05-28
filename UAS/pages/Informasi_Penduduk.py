@@ -113,7 +113,7 @@ sheet_id = "16gvv3Br49pD0HYy6qu3H5RdkKQRT1ObTxN4ALsNrRSI"
 sheet_name = "JumlahPenduduk"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 dfjmlpddk=pd.read_csv(url)
-dfjmlpddk.set_index('Bulan', inplace=True)
+dfjmlpddk.set_index('Tahun', inplace=True)
 
 sheet_id = "16gvv3Br49pD0HYy6qu3H5RdkKQRT1ObTxN4ALsNrRSI"
 sheet_name = "Kelahiran"

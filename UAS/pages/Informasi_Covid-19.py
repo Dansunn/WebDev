@@ -115,6 +115,7 @@ sheet_id = "1gSmw9VYFViRO-FId4SN9wOHPMk6Yb8gi31ioKD1D1-A"
 sheet_name = "2020K2"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 df2020K2=pd.read_csv(url)
+df2020K2.set_index('Bulan', inplace=True)
 
 sheet_id = "1gSmw9VYFViRO-FId4SN9wOHPMk6Yb8gi31ioKD1D1-A"
 sheet_name = "2020K3"
@@ -186,6 +187,7 @@ with main_container:
 
     if first_choice == '2020K2':
         st.write(df2020K2)
+        st.bar_chart(df2020K2)
 
     elif first_choice == '2020K3':
         st.write(df2020K3)

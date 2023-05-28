@@ -187,7 +187,7 @@ with main_container:
 
     if first_choice == '2020K2':
         st.write(df2020K2)
-        st.bar_chart(df2020K2)
+        st.line_chart(df2020K2)
 
     elif first_choice == '2020K3':
         st.write(df2020K3)

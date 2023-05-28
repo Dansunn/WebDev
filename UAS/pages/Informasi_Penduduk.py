@@ -114,7 +114,7 @@ sheet_name = "JumlahPenduduk"
 url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 dfjmlpddk=pd.read_csv(url)
 dfjmlpddk.set_index('Tahun', inplace=True)
-st.bar_chart=(dfjmlppdk)
+st.bar_chart=(dfjmlpddk)
 
 sheet_id = "16gvv3Br49pD0HYy6qu3H5RdkKQRT1ObTxN4ALsNrRSI"
 sheet_name = "Kelahiran"
